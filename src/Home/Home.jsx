@@ -50,7 +50,6 @@ const Home = () => {
     <div className="home-container">
       {/* Hero Banner */}
       <section className="home-hero">
-        <div className="hero-badge">⚡ ADVANCED WEB TECHNOLOGIES LAB</div>
         <h1 className="hero-heading">
           Product Inventory &amp; Shopping Cart System
         </h1>
