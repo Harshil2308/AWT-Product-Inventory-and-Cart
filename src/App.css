@@ -1,0 +1,51 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #0b0f19;
+  color: #f8fafc;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2.5rem 1.5rem;
+  width: 100%;
+}
+
+.app-footer {
+  margin-top: auto;
+  border-top: 1px solid #1e293b;
+  background: #0f172a;
+  padding: 2rem 1.5rem;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-left strong {
+  color: #f8fafc;
+  font-size: 0.95rem;
+}
+
+.footer-left p {
+  color: #64748b;
+  font-size: 0.82rem;
+  margin-top: 0.25rem;
+}
+
+.footer-tech {
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
